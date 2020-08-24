@@ -31,6 +31,7 @@ public class MessengerPageSD {
     }
     @Then("^I verify invalid login message on sign in page$")
     public void verifySignInErrorMessage(){
+
         Assert.assertEquals(messengerPage.getErrorMessage(), "Incorrect Email");
     }
 }
