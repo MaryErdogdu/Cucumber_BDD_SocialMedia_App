@@ -11,6 +11,6 @@ Feature: Login Feature
     Then I verify that invalid credentials
     Examples:
       |   username    | password |
-      | bob@gmail.com | test1234 |
+      | abc@gmail.com | test1234 |
       | jim@gmail.com | test5678 |
       | liz@gmail.com | 1234Test |
